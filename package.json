@@ -1,0 +1,15 @@
+{
+  "name": "azure-cosmosdb-documentdb-nodejs-getting-started",
+  "version": "0.0.0",
+  "description": "A short sample app to demonstrate how to get started with Azure Cosmos DB's DocumentDB API",
+  "main": "app.js",
+  "scripts": {
+    "init": "npm install",
+    "build": "typings install && tsc -p ./",
+    "start": "npm run build && node ./app.js",
+    "debug": "npm run build && DEBUG=dxreporting:* node-debug --no-debug-brk ./app.js"
+  },
+  "dependencies": {
+    "gremlin": "^2.3.3"
+  }
+}
